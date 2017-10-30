@@ -7,6 +7,8 @@ Author: MoMoePom
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Lora', serif;
+	color: white;
 }
 
 /*  ============================= 
@@ -65,4 +67,77 @@ a.dropdown-item {
 
 .main-container {
 	min-height: 700px;
+	background: #BEA586;
+}
+
+.banner {
+	background: rgba(0, 0, 0, 0.4);
+	height: 500px;
+	width: 100%;
+}
+
+.announcement {
+	background: #ebebeb;
+	height: 300px;
+	width: 100%;
+}
+
+.releases {
+	background: #FCFBE3;
+	width: 100%;
+}
+
+/*  ============================= 
+		Footer
+	============================= */
+
+footer {
+	background-color: #340A0B;
+	top: auto;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.footer-container {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+}
+
+.footer-title {
+	color: white;
+	font-size: 1.6em;
+}
+
+.footer-description {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 1.1em;
+}
+
+footer h4 {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer li a {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+#copyrights {
+	background: rgba(0, 0, 0, 0.3);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+p.copyright {
+	color: white;
+	margin-bottom: 5px;
 }
