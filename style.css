@@ -3,3 +3,9 @@ Theme Name: Ainushi Transltion Theme Template
 Description: A Wordpress Theme Template Created Specificly for Ainushi Translations.
 Author: MoMoePom
 */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
