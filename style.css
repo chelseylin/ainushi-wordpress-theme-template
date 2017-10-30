@@ -9,3 +9,60 @@ Author: MoMoePom
 	padding: 0;
 }
 
+/*  ============================= 
+		Navbars #343a40
+	============================= */
+
+nav {
+	background-color: #340A0B;
+;
+}
+
+li.nav-item {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+a.nav-link {
+	font-family: 'Lora', serif;
+	font-size: 1.15em;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+a.dropdown-item {
+	font-family: 'Lora', serif;
+	font-size: 1.15em;
+}
+
+a.navbar-brand {
+	font-family: 'Lora', serif;
+	font-size: 1.3em;
+}
+
+.dropdown-menu {
+	min-width: 13em;
+	padding-top: 7px;
+	background: #340A0B;
+	border: none;
+	border-radius: none;
+}
+
+a.dropdown-item {
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.dropdown-divider {
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+}
+
+/*  ============================= 
+		Main
+	============================= */
+
+.main-container {
+	min-height: 700px;
+}
