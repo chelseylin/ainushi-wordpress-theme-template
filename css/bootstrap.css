@@ -4037,7 +4037,7 @@ tbody.collapse.show {
 .navbar-dark .navbar-text a:focus, .navbar-dark .navbar-text a:hover {
   color: #fff;
 }
-
+/*
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -4269,6 +4269,8 @@ tbody.collapse.show {
     width: 100%;
   }
 }
+
+*/
 
 .breadcrumb {
   display: -ms-flexbox;

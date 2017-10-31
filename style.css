@@ -4,11 +4,23 @@ Description: A Wordpress Theme Template Created Specificly for Ainushi Translati
 Author: MoMoePom
 */
 
+/* color palette:
+pink: #F0EAEE;
+draker: #E4D8DC;
+brown: #CFC0C5;
+red: #865C68;
+blue: #D6DDE3;
+*/
+
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Lora', serif;
-	color: white;
+	color: #865C68;
+	font-family: 'Inknut Antiqua', serif;
+}
+
+img {
+	display: inline-block;
 }
 
 /*  ============================= 
@@ -16,8 +28,8 @@ Author: MoMoePom
 	============================= */
 
 nav {
-	background-color: #340A0B;
-;
+	background-color: #865C68;
+	opacity: 0.9;
 }
 
 li.nav-item {
@@ -26,31 +38,27 @@ li.nav-item {
 }
 
 a.nav-link {
-	font-family: 'Lora', serif;
-	font-size: 1.15em;
+	font-size: 1.10em;
 	color: rgba(255, 255, 255, 0.8);
 }
 
 a.dropdown-item {
-	font-family: 'Lora', serif;
 	font-size: 1.15em;
 }
 
 a.navbar-brand {
-	font-family: 'Lora', serif;
 	font-size: 1.3em;
 }
 
 .dropdown-menu {
 	min-width: 13em;
-	padding-top: 7px;
-	background: #340A0B;
+	padding-top: 6px;
+	background: #865C68;
 	border: none;
 	border-radius: none;
 }
 
 a.dropdown-item {
-	font-family: 'Lora', serif;
 	font-size: 1em;
 	font-weight: 500;
 	color: rgba(255, 255, 255, 0.8);
@@ -67,36 +75,140 @@ a.dropdown-item {
 
 .main-container {
 	min-height: 700px;
-	background: #BEA586;
+	background: url("http://localhost/wordpress/wp-content/uploads/banner.jpeg") repeat center bottom fixed;
+	background-size: cover;
+	background-blend-mode: color;
+	background-color: rgba(255,255,255,0.75);
 }
 
 .banner {
-	background: rgba(0, 0, 0, 0.4);
-	height: 500px;
-	width: 100%;
+	min-height: 500px;
+	background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0));
+	margin-bottom: 50px;
+}
+
+.banner-container {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 150px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.btn-large {
+	margin-top: 25px;
+}
+
+body > div.main-container > div.banner > div > a {
+	color: white;
+}
+
+body > div.main-container > div.banner > div > a:hover{
+	color: white;
 }
 
 .announcement {
-	background: #ebebeb;
-	height: 300px;
+	background: radial-gradient(rgba(214,221,227,1), rgba(255,255,255,0.5), rgba(255,255,255,0));
+	min-height: 300px;
 	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.announcement-container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 40px 15px 40px 15px;
+	text-align: center;
+}
+
+.announcement h4 {
+	margin-bottom: 30px;
+	color: #865C68;
+	font-size: 1.7em;
+	font-weight: 700;
+}
+
+.announcement p {
+	color: black;
+	margin-bottom: 20px;
 }
 
 .releases {
-	background: #FCFBE3;
 	width: 100%;
 }
 
+.releases-container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 50px 15px 50px 15px;
+	height: 100%;
+	text-align: center;
+}
+
+.releases-container h4 {
+	margin-bottom: 30px;
+	color: #865C68;
+	font-size: 1.7em;
+	font-weight: 700;
+}
+
+p.releases-description {
+	text-align: center;
+	color: #42646E;
+	font-size: 1.2em;
+	margin-bottom: 50px;
+}
+
+h2.header {
+	font-size: 1.5em;
+	font-weight: 600;
+	text-align: left;
+}
+
+p.date {
+	text-align: right;
+}
+
+.summary {
+	text-align: left;
+	color: black;
+	font-size: 0.9em;
+	height: 118px;
+	overflow: scroll;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .card-image {
+  	display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+	h2.header {
+		text-align: center;
+	}
+	p.date {
+		text-align: center;
+	}
+}
+
+.
 /*  ============================= 
 		Footer
 	============================= */
 
 footer {
-	background-color: #340A0B;
+	background-color: #865C68;
+	opacity: 0.8;
 	top: auto;
 	bottom: 0;
 	left: 0;
 	width: 100%;
+	clear: both;
 }
 
 .footer-container {
@@ -131,7 +243,7 @@ footer li a {
 }
 
 #copyrights {
-	background: rgba(0, 0, 0, 0.3);
+	background: #6A4A4B;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
