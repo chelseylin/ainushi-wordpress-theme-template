@@ -163,21 +163,47 @@ p.releases-description {
 }
 
 h2.header {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-weight: 600;
 	text-align: left;
+}
+
+a.no-hover {
+	color: #F0A2A2;
+}
+
+a.no-hover:hover {
+	text-decoration: none;
+	color: #F8CDBD;
 }
 
 p.date {
 	text-align: right;
 }
 
+.card-stacked {
+	height: 280px;
+	position: relative
+}
+
+.card-content {
+	overflow: auto;
+}
+
 .summary {
 	text-align: left;
 	color: black;
 	font-size: 0.9em;
-	height: 118px;
-	overflow: scroll;
+}
+
+.card-action.readmore {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	background: linear-gradient(to top, rgba(255,255,255,1),rgba(255,255,255,0.9));
+	border-top: none;
+	border-bottom: 1px solid #ccc;
 }
 
 
@@ -185,6 +211,8 @@ p.date {
   .card-image {
   	display: none;
   }
+
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -196,7 +224,6 @@ p.date {
 	}
 }
 
-.
 /*  ============================= 
 		Footer
 	============================= */

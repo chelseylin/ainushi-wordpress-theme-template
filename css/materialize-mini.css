@@ -3194,15 +3194,13 @@
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-  color: #ffab40;
   margin-right: 24px;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-  color: #ffd8a6;
 }
 
 .card .card-reveal {
@@ -3233,7 +3231,7 @@
   height: 36px;
   line-height: 36px;
   padding: 0 2rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
 }
