@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 	<div class="main-container">
 		<div class="banner">
 			<div class="banner-container">
