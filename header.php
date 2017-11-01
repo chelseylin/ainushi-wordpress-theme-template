@@ -13,9 +13,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Lora" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_url'); ?>/css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_url'); ?>/css/materialize-mini.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_url'); ?>/css/bootstrap-toggle.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo bloginfo('template_url'); ?>/style.css" />
-
-
 
 	<!-- Document Title
 	============================================= -->
