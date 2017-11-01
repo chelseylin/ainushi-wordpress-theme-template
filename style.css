@@ -17,6 +17,19 @@ blue: #D6DDE3;
 	padding: 0;
 	color: #865C68;
 	font-family: 'Inknut Antiqua', serif;
+	list-style: none;
+}
+
+.white-text {
+	color: white;
+}
+
+.brown {
+	color: #CFC0C5;
+}
+
+.pink-logo {
+	background-color: #F0A2A2;
 }
 
 img {
@@ -224,6 +237,120 @@ p.date {
 	}
 }
 
+#sidebar {
+	position: fixed;
+	width: 300px;
+	height: 100vh;
+	right: 0;
+	top: 0;
+	overflow-y: scroll;
+}
+
+#slide-out {
+	position: static;
+	padding-top: 70px;
+	height: 100vh;
+}
+
+.side-nav .user-view {
+	padding: 15px 20px;
+}
+
+.page-wrapper {
+	padding: 70px 330px 20px 30px;
+	left: 0;
+	top: 0;
+	min-height:700px;
+	width: 100%;
+}
+
+.page-content {
+	padding: 20px 100px 20px 100px;
+	position: static;
+	background: rgba(255,255,255,0.6);
+	min-height: 700px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.book-info {
+	font-size: 0.7em;
+}
+
+.post-title {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.post-content {
+	text-align: left;
+	margin-top: 20px;
+}
+
+.text-divider {
+	width: 100%;
+	height: 30px;
+}
+
+.tags {
+	text-align: left;
+}
+
+.chip {
+	color: #865C68;
+}
+
+.list-divider {
+	height: 5px;
+}
+
+.toggle-handle {
+	background: white;
+	position: absolute;
+	padding: 0 10px;
+	margin-left: -10px;
+}
+
+.toggle-item {
+	padding: 0px 32px;
+}
+
+.toggle-item p {
+	color: #865C68;
+	display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding-right: 10px;
+}
+
+a.subheader {
+	padding: 10px;
+}
+
+.mobile-screen-sidebar {
+	width: 100%;
+	min-height: 300px;
+	background: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .full-screen-sidebar {
+  	display: none;
+  }
+
+  .mobile-screen-sidebar {
+  	display: block;
+  }
+
+  .page-wrapper {
+  	padding-right: 30px;
+  }
+}
 /*  ============================= 
 		Footer
 	============================= */
