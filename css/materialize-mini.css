@@ -3602,7 +3602,6 @@
 
 .side-nav li {
   float: none;
-  line-height: 48px;
 }
 
 .side-nav li.active {
@@ -3614,9 +3613,7 @@
   display: block;
   font-size: 14px;
   font-weight: 500;
-  height: 48px;
-  line-height: 48px;
-  padding: 0 32px;
+  padding: 10px 32px 10px 32px;
 }
 
 .side-nav li > a:hover {

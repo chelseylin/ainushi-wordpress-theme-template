@@ -153,6 +153,17 @@
 				</div>
 			</div>
 		</div>
+		<div class="slider-container">
+			<div class="slider">
+				<div class="book-slide"><img src="<?php echo bloginfo('template_url');?>/TA.jpg""></div>
+	  			<div class="book-slide"><img src="<?php echo bloginfo('template_url');?>/TA.jpg""></div>
+	  			<div class="book-slide"><img src="<?php echo bloginfo('template_url');?>/TA.jpg""></div>
+	  			<div class="book-slide"><img src="<?php echo bloginfo('template_url');?>/TA.jpg""></div>
+	  			<div class="book-slide"><img src="<?php echo bloginfo('template_url');?>/TA.jpg""></div>
+	  			<div class="book-slide"><img src="<?php echo bloginfo('template_url');?>/TA.jpg""></div>
+	  			<div class="book-slide"><img src="<?php echo bloginfo('template_url');?>/TA.jpg""></div>
+			</div>
+		</div>
 	</div>
 
 	<footer>

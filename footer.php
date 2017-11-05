@@ -21,7 +21,11 @@
 
 <!-- Javascripts
 ============================================= -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="<?php echo bloginfo('template_url'); ?>/slick/slick.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
 <script src="<?php echo bloginfo('template_url'); ?>/js/bootstrap.js"></script>
 <script src="<?php echo bloginfo('template_url'); ?>/js/materialize.js"></script>
@@ -30,6 +34,45 @@
 	$( document ).ready(function() {
     	var body = document.getElementsByTagName('body')[0],
     		sidebar = document.getElementById('sidebar');
+
+    	// slick slider
+    	$('.slider').slick({
+  			slidesToScroll: 1,
+  			autoplay: true,
+  			autoplaySpeed: 2000,
+  			centerMode: true,
+  			centerPadding: '60px',
+ 			  slidesToShow: 4,
+        arrows: true,
+  			responsive: [
+  			{
+      			breakpoint: 1080,
+      			settings: {
+        			arrows: true,
+        			centerMode: true,
+        			centerPadding: '40px',
+        			slidesToShow: 3
+      			}
+    		},
+    		{
+      			breakpoint: 788,
+      			settings: {
+        			arrows: false,
+        			centerMode: true,
+        			centerPadding: '40px',
+        			slidesToShow: 2
+      			}
+    		},
+    		{
+      			breakpoint: 580,
+      			settings: {
+        			arrows: false,
+        			centerMode: true,
+        			centerPadding: '40px',
+        			slidesToShow: 1
+      			}
+    		}]
+		});
 
 		// sidebar overflow hide
 		sidebar.onmouseover = function() { 
